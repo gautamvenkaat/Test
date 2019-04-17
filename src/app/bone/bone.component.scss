@@ -1,0 +1,23 @@
+// app-bone > app-aone {
+//     .pTest{
+//         color:yellow !important;
+//     }
+// }
+// p {
+//     font-size: 10px;}
+
+//    app-bone > app-aone > p.pTest{
+//             color:yellow !important;
+//         }
+
+
+app-aone.aTest > p.pTest {
+        color:yellow !important; 
+    }
+
+    app-aone.aTest {
+        color: yellow;
+        & p.pTest {
+        color:yellow !important; 
+    }
+    } 
